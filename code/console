@@ -1,0 +1,6 @@
+XXX@ubuntu:~/STM8_TIL305$ sdcc -lstm8 -mstm8 --out-fmt-ihx main.c
+XXX@ubuntu:~/STM8_TIL305$ sudo stm8flash -c stlinkv2 -p stm8s103f3 -w main.ihx
+Determine FLASH area
+Writing Intel hex file 1095 bytes at 0x8000... OK
+Bytes written: 1095
+
